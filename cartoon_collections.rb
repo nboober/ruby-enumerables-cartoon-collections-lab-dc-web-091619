@@ -25,9 +25,9 @@ def find_the_cheese(array)
   
   array.find {|item| 
   
-    if cheese_types.include?(item){
+    cheese_types.include?(item)
       return item
-    }
+    
   } 
   
 end
