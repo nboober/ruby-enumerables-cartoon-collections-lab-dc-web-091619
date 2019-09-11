@@ -26,7 +26,6 @@ def find_the_cheese(array)
   array.find {|item| 
   
     cheese_types.include?(item)
-      return item
     
   } 
   
